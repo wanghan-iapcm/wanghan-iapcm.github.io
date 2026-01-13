@@ -1,0 +1,214 @@
+body {
+  font: 14px/1.2 Bitstream Vera Sans, Tahoma, sans-serif;
+  background: #F7F8E0;  
+  background: #FAFAFA;
+  margin: 0px 50px 50px 55px;
+  /* PADDING-left: 40px; */
+  /* padding-right: 40px; */
+  /* padding-left: 12%; */
+  /* padding-right: 10%; */
+  padding-left: 5%;
+  padding-right: 4%;
+  /* padding-top: 3em; */
+  padding-bottom: 3em;
+  margin: 0;
+}
+ 
+a {
+  font-weight: bold;
+  /* font-family: sans; */
+  text-decoration: none;
+  color: #045FB4;
+}
+
+a:hover {
+    color: #2E9AFE;
+}
+
+.title, h1{
+  margin-top: 0px; 
+  margin-left: -100px;
+  margin-right: -90px;
+  padding: 25px 0px 16px 60px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  color: #004f37;
+  background: #d9e7e2 url(../images/sky.png) repeat-x;
+  font-size: 30px;
+  line-height: 1;
+  text-align: left;
+}
+
+h2 {
+  margin-left: -10px;
+  margin-right: 0px;
+  padding: 3px 0px 3px 10px;
+  font-family: vera sans;
+  font-weight: bold;
+  font-size: 22px;
+  color: #FE2E2E;
+  border-left: #F5A9A9 6px solid;
+  border-bottom: #F5A9A9 1px solid;
+  line-height: 1.2;
+}
+
+h3 {
+  margin-left: -10px;
+  margin-right: 0px;
+  padding: 13px 0px 3px 0px;
+  font-family: vera sans;
+  font-weight: bold;
+  font-size: 16px;
+  color: #FE2E2E;
+  border-bottom: #F5A9A9 1px solid;
+  line-height: 1.2;
+}
+
+
+h4 {
+  margin-left: -10px;
+  margin-bottom: 20px;
+  font-family: Bitstream Vera Sans, Tahoma, SimHei, sans-serif;
+  font-size: 12px;
+  color: #FE2E2E;
+  padding: 2px;
+  /* border-bottom: 1px dashed #FE2E2E; */
+}
+
+img {
+  /* float: right; */
+  margin-top: -15px;
+  margin-bottom: 25px;
+  /* border-style: solid; */
+  /* border-width: 2px; */
+  /* border-color: #A9E2F3; */
+}
+
+#im {
+  clear: right;
+}
+
+pre {
+  font: 12px/1.2 Courier New, Bitstream Vera Sans Mono, sans-serif;
+  border: #777 1px solid;
+  padding: 0.5em;
+  margin-left: 2em;
+  margin-right: 2em;
+  white-space: pre;
+  background-color: #e6e6e6;
+  color: black;
+}
+
+.verse {
+  white-space: pre;
+  margin-left: 1em;
+}
+
+dt {
+  font-weight: bold;
+}
+
+li {
+  margin-bottom: 0.9ex;
+}
+
+table {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border: 0;
+}
+
+td {
+  font-size: 14px;
+  border-left: ButtonHighlight 1px solid;
+  border-right: ButtonShadow 1px solid;
+  border-top: ButtonHighlight 1px solid;
+  border-bottom: ButtonShadow 1px solid;
+  padding-left: 3px;
+  padding-right: 2px;
+  overflow: hidden;
+  background: #ddeecc;
+}
+
+th {
+  font-size: 14px;
+  border-left: ButtonHighlight 1px solid;
+  border-right: ButtonShadow 1px solid;
+  border-top: ButtonHighlight 1px solid;
+  border-bottom: ButtonShadow 1px solid;
+  padding-left: 3px;
+  padding-right: 2px;
+  overflow: hidden;
+  background: #eeeecc;
+}
+
+.navfoot {
+  margin-left: -30px;
+  text-align: center;
+}
+
+/*menu*/
+.menu {
+  <lisp>(funcall emacs-wiki-menu-factory)</lisp>
+  background: #edf2f2;
+  color: white;
+  border-top: 8px solid #e0e9e9;
+  border-bottom: 8px solid #e0e9e9;
+  content: "";
+  display: inline-table;
+  float: right;
+  padding: 0;
+}
+
+.menuitem {
+  font: 14px Bitstream Vera Sans, Tahoma, sans-serif;
+  margin: 0;
+  text-align: right;
+}
+
+.menuitem a:link, .menuitem a:visited {
+  display: block;
+  padding: 2px 10px 2px 10px;
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #fff;
+  border-right: 1px solid #ddd;
+  color: #00008b;
+  text-decoration: none;
+}
+
+.menuitem a:hover {
+  color: #00008b;
+  background: #cceeff;
+}
+
+.menu:before {
+  /*color: transparent;*/
+  display: block;
+  content: "";
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+.menu:after {
+  /*color: transparent;*/
+  display: block;
+  content: "";
+  border-top: 1px solid #fff;
+  text-align: center;
+}
+
+#tooltipbox {
+  float: right;
+  /*visibility: hidden;*/
+}
+
+#tooltip {
+  color: #666;
+}
+
+
+hr {
+    margin-left: -10px;
+    border-style: dashed;
+    border-color: #ccc;
+}
